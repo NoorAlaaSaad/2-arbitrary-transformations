@@ -1,0 +1,37 @@
+# Downloaded datasets and archives
+/data/
+/archive/
+
+# Generated projections and other results
+/outputs/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local credentials and agent configuration
+.env
+.env.*
+!.env.example
+/.aws/
+/.agents/
+/.codex/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
